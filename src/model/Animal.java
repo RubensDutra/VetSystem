@@ -11,6 +11,17 @@ public class Animal {
     private int idade;
     private int id_cliente;
 
+    public Animal(int id, String nome, String especie, String raca, double peso, String sexo, int idade, int id_cliente) {
+        this.id = id;
+        this.nome = nome;
+        this.especie = especie;
+        this.raca = raca;
+        this.peso = peso;
+        this.sexo = sexo;
+        this.idade = idade;
+        this.id_cliente = id_cliente;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
